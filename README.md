@@ -20,6 +20,7 @@ Service <-- IService
 Proxy : operation()
 Proxy : Service service
 Proxy : checkAccess()
+Proxy --|> Service
 Service : operation()
 ```
 В даному прикладі клієнт запитує доступ до об'єкта-нащадка IService (яким виступає Proxy), і, в залежності від відповіді Proxy, отримує або не отримує доступ до справжнього сервісу Service.
