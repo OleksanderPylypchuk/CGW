@@ -38,7 +38,7 @@ Addition : Calculate(A,B)
 Substraction : Calculate(A,B)
 Multiplication : Calculate(A,B)
 Division : Calculate(A,B)
-Calculation --|>
+Calculation *--|> IMethod
 Addition --> IMethod
 Substraction --> IMethod
 Multiplication --> IMethod
