@@ -47,3 +47,10 @@ Division --> IMethod
 
         Monitor Object
 Моніторинговий об'єкт - паралелістичний патерн дизайну, згідно з яким необідно інкапсулювати асинхронні методи всередині об'єкта. Це дозволяє обмежувати доступ до ресурсів та забезпечує те, що лише один із потоків одночасно буде мати доступ до перегляду та редагування ресурсів.
+```mermaid
+classDiagram
+AsyncClass : - resources
+AsyncClass : method1async()
+AsyncClass : method2async()
+AsyncClass : method3async()
+```
