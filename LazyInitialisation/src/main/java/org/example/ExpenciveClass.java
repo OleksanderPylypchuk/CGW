@@ -1,2 +1,7 @@
-package org.example;public class ExpenciveClass {
+package org.example;
+
+public class ExpenciveClass {
+    public void Action(){
+        //some action
+    }
 }
