@@ -50,7 +50,6 @@ Division --> IMethod
 ```mermaid
 classDiagram
 AsyncClass : - resources
-AsyncClass : method1async()
-AsyncClass : method2async()
-AsyncClass : method3async()
+AsyncClass : method()
+AsyncClass : object _object
 ```
